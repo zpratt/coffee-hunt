@@ -1,0 +1,39 @@
+{
+  "name": "coffee-hunt",
+  "version": "0.0.1",
+  "description": "I love coffee. Show me where I can get some.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zpratt/coffee-hunt.git"
+  },
+  "keywords": [
+    "hapi",
+    "react",
+    "google",
+    "maps",
+    "coffee"
+  ],
+  "author": "zach pratt <zach@attackofzach.com> (http://attackofzach.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zpratt/coffee-hunt/issues"
+  },
+  "homepage": "https://github.com/zpratt/coffee-hunt",
+  "dependencies": {
+    "async": "^0.9.0",
+    "config": "^1.12.0",
+    "hapi": "^8.4.0",
+    "hapi-react-views": "^3.0.0",
+    "idle-maps": "^1.0.1-alpha",
+    "lodash": "^3.6.0",
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^0.18.0",
+    "mocha": "^2.2.1"
+  }
+}
