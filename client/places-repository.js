@@ -6,10 +6,11 @@
 
 var superagent = require('superagent');
 
-function getPlaces() {
+function getPlaces(searchPoint) {
     return new Promise(function (resolve, reject) {
         superagent
             .get('/places')
+            .query({location: searchPoint.lat() + ',' + searchPoint.lng()})
             .type('json')
             .end(function (err, response) {
                 if (err) {

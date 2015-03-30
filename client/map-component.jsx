@@ -24,7 +24,9 @@ function createOverlays(map, places) {
 module.exports = React.createClass({
     mixins: [GoogleMapsApiMixin, MapMixin],
     idle: function (map) {
-        placesRepository.find().then(function (places) {
+        var centerPoint = map.getCenter();
+
+        placesRepository.find(centerPoint).then(function (places) {
             var overlayElements = createOverlays(map, places),
                 overlayIndex;
 
