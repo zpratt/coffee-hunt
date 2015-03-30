@@ -16,7 +16,7 @@ var placesRepository = require('./places-repository'),
 function createOverlays(map, places) {
     return places.map(function (place) {
         return (
-            <OverlayComponent point={place.location} map={map} message={place.name} />
+            <OverlayComponent point={place.location} map={map} place={place} />
         );
     });
 }
