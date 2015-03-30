@@ -4,7 +4,8 @@
   "description": "I love coffee. Show me where I can get some.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eslint lib views client && webpack",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -30,10 +31,15 @@
     "hapi-react-views": "^3.0.0",
     "idle-maps": "^1.0.1-alpha",
     "lodash": "^3.6.0",
-    "react": "^0.13.1"
+    "oauth-1.0a": "^0.1.1",
+    "react": "^0.13.1",
+    "request": "^2.54.0",
+    "superagent": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^0.18.0",
-    "mocha": "^2.2.1"
+    "jsx-loader": "^0.12.2",
+    "mocha": "^2.2.1",
+    "webpack": "^1.7.3"
   }
 }
