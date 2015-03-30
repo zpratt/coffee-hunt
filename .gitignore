@@ -2,3 +2,4 @@
 node_modules
 *.iml
 config/localhost.js
+assets/app.js
