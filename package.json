@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "eslint lib views client && webpack",
-    "start": "node index.js"
+    "start": "NODE_ENV=localhost node index.js"
   },
   "repository": {
     "type": "git",
