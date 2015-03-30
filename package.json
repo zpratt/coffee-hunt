@@ -31,6 +31,7 @@
     "hapi": "^8.4.0",
     "hapi-react-views": "^3.0.0",
     "idle-maps": "^1.0.1-alpha",
+    "joi": "^6.0.8",
     "lodash": "^3.6.0",
     "oauth-1.0a": "^0.1.1",
     "react": "^0.13.1",
