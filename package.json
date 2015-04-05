@@ -2,6 +2,9 @@
   "name": "coffee-hunt",
   "version": "0.0.1",
   "description": "I love coffee. Show me where I can get some.",
+  "engines": {
+    "node": ">=0.12"
+  },
   "main": "index.js",
   "scripts": {
     "build": "eslint lib views client && webpack",
